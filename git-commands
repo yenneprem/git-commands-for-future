@@ -77,3 +77,6 @@
    94  git remote -v
    95  git branch
    96  git push -u prem main
+ 97 git remote add origin  https://github.com/yenneprem/git-commands-for-future.git
+git push -u origin master
+git remote remove origin
