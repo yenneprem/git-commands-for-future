@@ -80,3 +80,7 @@
  97 git remote add origin  https://github.com/yenneprem/git-commands-for-future.git
 git push -u origin master
 git remote remove origin
+git fetch 
+git switch origin/master
+git swicth master
+git status
