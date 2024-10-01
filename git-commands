@@ -1,0 +1,79 @@
+  1  git config user.name
+    2  git config user.email
+    3  git config user.name
+    4  git config --user.name "test"
+    5  git config --global user.name "test"
+    6  git config user.name
+    7  git status
+    8  pwd
+    9  ls
+   10  mkdir test
+   11  cd test
+   12  ls
+   13  git init
+   14  ls -larth
+   15  git status
+   16  cd ..
+   17  mkdir my_fst_repo
+   18  cd my_fst_repo/
+   19  git status
+   20  git clone https://github.com/yenneprem/test.git
+   21  git status
+   35  cd my_fst_repo/
+   36  git status
+   37  git clone https://github.com/yenneprem/my-private-repo.git
+   38  git status
+   39  ls
+   40  cd my-private-repo/
+   41  git status
+   42  ls
+   43  git status
+   44  cd ..
+   45  lsgit status
+   46  git status
+   47  mkdir git-commands
+   48  cd git-commands/
+   49  git status
+   50  git init
+   51  git status
+   52  vi my-fst-file.txt
+   53  git status
+   54  git add my-fst-file.txt
+   55  git status
+   56  git rm --cached my-fst-file.txt
+   57  git status
+   58  ls
+   59  git add my-fst-file.txt
+   60  git status
+   61  git commit -m "test"
+   62  git status
+   63  vi my-fst-file.txt
+   64  git status
+   65  git restore my-fst-file.txt
+   66  git status
+   67  cat my-fst-file.txt
+   68  vi my-fst-file.txt
+   69  git status
+   70  git add .
+   71  git status
+   72  git restore my-fst-file.txt
+   73  git status
+   75  git status
+   76  git restore --staged my-fst-file.txt
+   77  git status
+   78  git restore my-fst-file.txt
+   79  cat my-fst-file.txt
+   80  vi my-fst-file.txt
+   81  git status
+   82  git add .
+   83  git status
+   84  git commit -m " 2nd commit"
+   85  git status
+   86  git log
+
+   91  git removte -v
+   92  git remote -v
+   93  git remote rename origin prem
+   94  git remote -v
+   95  git branch
+   96  git push -u prem main
